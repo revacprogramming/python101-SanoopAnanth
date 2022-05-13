@@ -10,6 +10,7 @@ while True:
       flsv=float(num)
     except:
       print('Invalid input')
+      continue
     for i in num:
        if smallest is None:
             smallest=num
