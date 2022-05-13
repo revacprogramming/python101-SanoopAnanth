@@ -13,14 +13,14 @@ while True:
       continue
     for i in num:
        if smallest is None:
-            smallest=num
-       elif num<smallest:
-            smallest=num
+            smallest=flsv
+       elif flsv<smallest:
+            smallest=flsv
     for i in num:
         if largest is None:
-            largest=num
-        elif num>largest:
-            largest=num
+            largest=flsv
+        elif flsv>largest:
+            largest=flsv
   
       
 print("Minimum",smallest)
